@@ -38,7 +38,7 @@ def turn(board)
     input = gets.strip
     index = input_to_index(input)
     unless input.between?(0, 8)
-
+      turn(board)
     # if (!input.between?(1, 9))
     #    turn(board)
     #  elsif (input.between?(1, 9))
