@@ -33,7 +33,7 @@ def move(board, index, token = 'X')
 
 end
 
-def turn(board, input)
+def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
   if (input.between?(1-9))
