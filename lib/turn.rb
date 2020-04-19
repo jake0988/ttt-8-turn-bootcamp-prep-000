@@ -45,7 +45,7 @@ def turn(board)
       else
         turn(board)
       end
-    
+      
     end
     # unless input.between?(1, 9)
     #   puts "Please enter 1-9:"
