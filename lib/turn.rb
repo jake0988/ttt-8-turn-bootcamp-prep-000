@@ -37,14 +37,14 @@ def turn(board)
     puts "Please enter 1-9:"
     input = gets.strip
     index = input_to_index(input)
-    if (index.between?(0, 8))
+    while !input.between?(1, 9)
+       puts "Please enter 1-9:"
+       input = gets.strip)
       if ((valid_move?(board, index) == true)
         move(board, index)
       else
         turn(board)
       end
-    else
-      turn(board)
     end
     # unless input.between?(1, 9)
     #   puts "Please enter 1-9:"
