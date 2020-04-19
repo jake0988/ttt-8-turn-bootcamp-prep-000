@@ -1,16 +1,16 @@
 def display_board(board)
    i = 0
-   while board[i < 3]
+   while i < 3
      print board[i]
     i += 1
     end
     puts "-----------"
-      while board[i < 6]
+      while i < 6
         print board[i]
       i += 1
        end
        puts "-----------"
-       while board[i < 9]
+       while i < 9
          print board[i]
         i += 1
         end
