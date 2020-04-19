@@ -1,5 +1,8 @@
 def display_board(board)
-  puts board
+   i = 0
+   while board[i < 3]
+     print board[i]
+     i +=
 end
 
 def valid_move(board, index)
