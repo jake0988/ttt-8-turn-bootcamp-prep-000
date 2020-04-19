@@ -9,12 +9,12 @@ def display_board(board)
         print board[i]
          += i
        end
-       puts
+       puts ""
        while board[i < 9]
          print board[i]
           += i
         end
-        puts
+        puts ""
 end
 
 def valid_move(board, index)
