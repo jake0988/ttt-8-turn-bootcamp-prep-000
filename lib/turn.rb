@@ -2,7 +2,7 @@ def display_board(board)
    i = 0
    while board[i < 3]
      print board[i]
-     i +=
+      += i
 end
 
 def valid_move(board, index)
