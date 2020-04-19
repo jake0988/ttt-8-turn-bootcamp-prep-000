@@ -40,6 +40,7 @@ def turn(board)
     if (index.between?(0, 8))
       if ((valid_move?(board, index))
         move(board, index)
+      end
     else
       turn(board)
     end
