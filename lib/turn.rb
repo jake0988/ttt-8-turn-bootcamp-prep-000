@@ -1,5 +1,5 @@
 def display_board(board)
-  print board
+  puts board
 end
 
 def valid_move(board, index)
