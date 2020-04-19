@@ -38,6 +38,6 @@ def turn(board)
     input = gets.strip
     unless input.between?(1-9)
       puts "Please enter 1-9:"
-    end  
-    input
+    end
+    return input
 end
