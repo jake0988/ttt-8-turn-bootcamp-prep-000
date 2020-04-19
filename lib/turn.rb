@@ -40,7 +40,6 @@ def turn(board)
     if (!input.between?(1, 9))
        turn(board)
      elsif (input.between?(1, 9))
-
       if (valid_move?(board, index) == true)
         move(board, index)
       else
