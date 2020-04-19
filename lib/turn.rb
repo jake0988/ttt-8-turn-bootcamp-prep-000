@@ -7,8 +7,8 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
-  index.to_i
-  index -= 1
+  user_input = user_input.to_i
+  user_input -= 1
 end
 def valid_move(board, index)
   if (index.between?(0, 8) && board[index] != 'X' || board[index] != 'O')
